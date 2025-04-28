@@ -7,7 +7,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # === НАСТРОЙКИ ===
 TELEGRAM_BOT_TOKEN = '7972664040:AAFKSXUgjUGKM6nzBFSf_o0bjnahdU6_86E'  # <-- Сюда вставить токен от @BotFather
-CHAT_ID = None  # сюда запишем chat_id пользователя
+CHAT_ID = 6492320144  # сюда запишем chat_id пользователя
 
 BYBIT_PRICE_URL = 'https://api.bybit.com/v2/public/tickers?symbol=USDTUSDT'  # Можно будет заменить на реальный маркет USDT/USDT если понадобится
 CHECK_INTERVAL = 600  # 600 секунд = 10 минут
